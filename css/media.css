@@ -1,0 +1,227 @@
+@media screen and (max-width:1280px) {
+    #subheader p {
+        margin-left: 10px;
+    }
+    #subheader a {
+        margin-right: 10px;
+    }
+    #search {
+        margin-left: 20px;
+    }
+    
+    .catbox{
+        width: 19%;
+        margin: 0 .5% 0;
+    }
+    
+    /* this is for products */
+    .prod-box{
+        width: 19%;
+        margin: 5px .5%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #logo {
+        margin-top: -5px;
+    }
+    #search {
+        width: 500px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+    .search-area {
+        width: 500px;
+    }
+    #user-menu {
+        width: 200px;
+    }
+    #user-menu li {
+        width: 90px;
+    }
+    .catbox{
+        height: 190px;
+    }
+    
+    /* this is for products */
+    .prod-box{
+        height: 245px;
+    }
+    
+    .prod-box:hover .prod-feature {
+    margin-top: 120px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #subheader a {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    #logo{
+        width: 130px;
+        margin-top: 10px;
+    }
+    #ist{
+        font-size: 25px;
+    }
+    #iist{
+        font-size: 20px;
+    }
+    #search{
+        width: 350px;
+    }
+    .search-area{
+        width: 350px;
+        height: 40px;
+    }
+    .search-btn{height: 40px;}
+    #user-menu{margin-top: 15px;}
+    
+    .menu-togglr{
+        display: block;
+    }
+    
+    #navigation{
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #navigation nav{
+        float: none;
+        margin: 0 auto;
+        width: 100%:
+    }
+    #mainav a{
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid black;
+        margin: 0 !important;
+        padding: 10px;
+    }
+    #mainav{
+        display: none;
+    }
+    .bx-wrapper .bx-pager.bx-default-pager a {
+        width: 10px;
+        height: 10px;
+    }
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom: 15px;
+}
+    .catbox{
+        height: 150px;
+    }
+    
+    /* this is for products */
+    .prod-box{
+        height:190px;
+    }
+    .prod-box:hover .prod-feature {
+    margin-top: 70px;
+    }
+    .prod-feature input{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:640px) {
+    .catbox{
+        height: 120px;
+    }
+    .catbox span{
+        bottom: 20px;
+        height: 25px;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    /* this is for products */
+    .prod-box{
+        height:150px;
+    }
+    
+    .prod-box:hover .prod-feature {
+    margin-top: 50px;
+    }
+    .prod-feature input{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .prod-feature p{
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    #subheader p {
+        display: none;
+    }
+    #subheader {
+        padding-bottom: 10px;
+    }
+    /* this is for products */
+    .prod-box{
+        height:auto;
+        width: 45%;
+        margin: 5px 10px;
+    }
+    .prod-box:hover .prod-feature {
+    margin-top: 140px;
+    }
+     .prod-feature p{
+        font-size: 17px;
+    }
+
+@media screen and (max-width:360px) {
+    #subheader a {
+        font-size: 12px;
+    }
+    #logo{width: 70px;}
+    #ist{font-size: 15px;}
+    #iist{font-size: 12px;}
+    #search{width: 100px;}
+    .search-area{
+        width: 170px;
+        height:25px;
+    }
+    .search-btn{
+        height: 25px;
+        font-size: 10px;
+        width: 60px;
+        margin-left: -60px;
+    }
+    #user-menu{
+        width: 100px;
+        margin-top: 10px;
+    }
+    #user-menu li{
+        font-size: 15px;
+        width: 70px;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    
+    #heading-block+ .catbox{
+        width: 50%;
+        height: auto;
+    }
+    .catbox{
+        height: 90px;
+        margin: 2% 1%;
+    }
+    .catbox span{
+        bottom:30px;
+        font-size: 10px;
+    }
+    /* this is for products */
+    .prod-box{
+        height:auto;
+        width: 45%;
+        margin: 5px 3px;
+    }
+     .prod-box:hover .prod-feature {
+    margin-top: 80px;
+    }
+}
